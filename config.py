@@ -2,11 +2,11 @@ import os
 
 
 class Config(object):
-    API_HASH = os.environ.get("API_HASH", "b3a786dce1f4e7d56674b7cadfde3c9d")
+    API_HASH = os.environ.get("API_HASH", "396b10bcf5e1ed5fcc71f1603800b7cf")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7371246781:AAGIVGgXOBfGHamn74PUyoxUZDB7U3weqBc")
-    TELEGRAM_API = os.environ.get("TELEGRAM_API", "28776072")
-    OWNER = os.environ.get("OWNER", "7042535787")
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "ftmdeveloper")
+    TELEGRAM_API = os.environ.get("TELEGRAM_API", "5461760")
+    OWNER = os.environ.get("OWNER", "6521935712")
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "siddhant_devil")
     PASSWORD = os.environ.get("PASSWORD", "@ftmdeveloper")
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://ftm:ftm@cluster0.rhh9r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     LOGCHANNEL = os.environ.get("LOGCHANNEL", "-1002187287666")  # Add channel id as -100 + Actual ID
